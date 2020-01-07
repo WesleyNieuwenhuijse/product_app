@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">productApp</string>
     <string name="product">Product</string>
+<<<<<<< HEAD
     <string name="search_product">Search productgit </string>
     <string name="title_shoplist_list">Shops</string>
     <string name="title_shoplist_detail">ShopList Detail</string>
+=======
+    <string name="search_product">Search product</string>
+>>>>>>> f9e8944cb7ff25f194b7bb6ccfc25eb1a193c1b9
 </resources>
