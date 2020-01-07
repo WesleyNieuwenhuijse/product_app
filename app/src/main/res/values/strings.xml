@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">productApp</string>
     <string name="product">Product</string>
-    <string name="search_product">Search productgit </string>
+    <string name="search_product">Search product</string>
 </resources>
