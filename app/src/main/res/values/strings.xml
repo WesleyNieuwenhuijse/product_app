@@ -2,4 +2,6 @@
     <string name="app_name">productApp</string>
     <string name="product">Product</string>
     <string name="search_product">Search productgit </string>
+    <string name="title_shoplist_list">Shops</string>
+    <string name="title_shoplist_detail">ShopList Detail</string>
 </resources>
