@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barrierTop" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/barrierTop"
         android:layout_width="411dp"
@@ -36,7 +29,6 @@
             android:id="@+id/speak_button"
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="44dp"
             android:adjustViewBounds="true"
             android:padding="0dp"
             android:scaleType="fitCenter"
@@ -60,7 +52,16 @@
             app:layout_constraintStart_toEndOf="@+id/speak_button"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/barrierTop"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+        <!-- Recycle list -->
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/shop.btn"
         android:layout_width="167dp"
@@ -75,4 +76,7 @@
         app:layout_constraintTop_toBottomOf="@+id/barrierTop"
         app:layout_constraintVertical_bias="0.12" />
 
+=======
+    </androidx.recyclerview.widget.RecyclerView>
+>>>>>>> 500c25ef3c3083aad8002d3d48b6a1f7bc07b926
 </androidx.constraintlayout.widget.ConstraintLayout>
