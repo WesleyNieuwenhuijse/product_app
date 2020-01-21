@@ -7,10 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-<<<<<<< HEAD
-=======
+
 import android.widget.Toast;
->>>>>>> 500c25ef3c3083aad8002d3d48b6a1f7bc07b926
+
 
 import java.util.ArrayList;
 
