@@ -4,4 +4,6 @@
     <string name="title_shoplist_list">Shops</string>
     <string name="title_shoplist_detail">ShopList Detail</string>
     <string name="search_product">Search product</string>
+    <string name="todo">TODO</string>
+    <string name="view_shops">View Shops</string>
 </resources>
